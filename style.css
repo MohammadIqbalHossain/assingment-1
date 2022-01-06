@@ -71,6 +71,40 @@ button a {
   
 }
 
+  /* 
+  ==========================
+  media Query banner section
+  ==========================
+  */
+   
+  @media only screen and (max-width: 600px) {
+   
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 10px 20px 20px;
+
+    }
+
+    .banner-page > h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .banner-section p {
+        text-align: justify;
+        margin-left: 10px 50px;
+        font-size: 17px;
+    }
+   
+
+
+
+
+  }
+
+
 /* ------x----- banner sectio --------x------ */
 
 
@@ -115,6 +149,27 @@ section h1 {
     width: 150px;
 }
 
+
+
+  /* 
+  ==========================
+  media Query Mission sectionc
+  ==========================
+  */
+
+
+  @media only screen and (max-width: 600px) { 
+   
+    .mission-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
+
+
+
+
 /* ------x----- mission sectio --------x------ */
 
 
@@ -143,6 +198,34 @@ section h1 {
     width: 350px;
     margin-left: 200px;
 }
+
+
+
+  /* 
+  ==========================
+  media Query Mission section
+  ==========================
+  */
+
+
+  @media only screen and (max-width: 600px) { 
+   
+    .develop {
+        display: flex;
+        flex-direction: column-reverse;
+        background-position: 100% 65%;
+    }
+
+    .container-2 img {
+        margin-left: 60px;
+    }
+    .text-position {
+        margin: 60px;
+    }
+  
+
+  }
+
 
 
 
@@ -177,6 +260,41 @@ section h1 {
 
 
 
+  /* 
+  ==========================
+  media Query Commiunity section
+  ==========================
+  */
+
+
+
+  
+  @media only screen and (max-width: 600px) { 
+   
+.commiunity{
+        display: flex;
+        flex-direction: column;
+        background-position: 100% 100%;
+    }
+
+    .container-3 {
+        margin: 20px;
+    }
+
+    .container-3 img {
+        margin-left: -40px;
+    }
+
+  
+  
+
+  }
+
+
+   
+
+
+
 /* ------x----------- Community sectio --------x------ */
 
 
@@ -196,8 +314,7 @@ section h1 {
 form {
     width: 100%;
     margin: 50px 100px;
-   
-      
+     
 }
 
 .text {
@@ -210,7 +327,7 @@ form {
 }
 .form-division {
     background-color: #ffffff;
-    padding: 20px 20px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 15px 15px 6px 7px #d0dce7;
 }
@@ -232,6 +349,33 @@ form {
     background-color: #ff99ac;
 
 }
+
+
+
+/* 
+  ==========================
+  media Query Mission section
+  ==========================
+  */
+
+
+  @media only screen and (max-width: 600px) { 
+
+
+    .join-me {
+        background-image: none;
+    }
+     
+    .form-division {
+        margin: 50px;
+    }
+
+    form {
+        margin: 25px 40px;
+    }
+    
+    
+  }
 
 /* --------------form section---------- */
 
@@ -262,6 +406,27 @@ footer {
     font-size: 18px;
     color: gray;
 }
+
+
+
+
+  /* 
+  ==========================
+  media Query Mission sectionc
+  ==========================
+  */
+
+
+  @media only screen and (max-width: 600px) { 
+   
+ footer{
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+    
+  }
+
 
 
 /* -----x---footer------x--- */
