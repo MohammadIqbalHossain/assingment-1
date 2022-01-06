@@ -4,5 +4,9 @@
 
 ## Mohammad Iqbal Hossain 👤
 
-<img src="./images/pictures/assingment-img-readme.png" style="width: 300px"> 🤩 🤩
+<!-- <img src="./images/pictures/assingment-img-readme.png" style="width: 300px"> -->
+
+![ScreenShot](images/pictures/assingment-img-readme.png)
+ 
+🤩 🤩
 
