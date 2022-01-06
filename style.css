@@ -8,8 +8,9 @@ body {
 /* Global  */
  
 p {
-    font-size: 21px;
-    color:	#778899;
+    font-size: 19px;
+    font-family: poppins;
+	 
 }
 
 .sp-color {
@@ -40,9 +41,11 @@ p {
  .banner-page > h1 {
     display: block;
     font-size: 70px;
+    font-weight: 1000;
     font-family: Montserrat 'sans-serif';
     border-left-style: solid;
     border-left-color: red;
+    text-align: start;
     border-radius: 2px;
     padding-left: 10px;
 }
@@ -63,7 +66,7 @@ button a {
 .banner-page small {
     display: inline-block;
     margin-top: 50px;
-    font-size: 17px;
+    font-size: 21px;
     color:gray;
   
 }
@@ -77,6 +80,7 @@ button a {
 .mission-flex {
     display: flex;
     justify-content: space-evenly;
+    margin: 20px 80px;
     
 }
 section h1 {
@@ -86,22 +90,25 @@ section h1 {
 }
 
 .container {
-   margin: 20px 20px 50px 20px; 
-   background-color: lightblue;
-   padding: 20px;
+   margin: 20px 10px; 
+   padding: 10px 15px;
    border-radius: 15px;
 
 }
 
+.container p {
+    font-size: 17px;
+}
+
 .bg-1 {
-    background-color: lightblue;
+    background-color: rgba(142, 202, 230, 0.3);
 }
 
 .bg-2 {
-    background-color: hotpink;
+    background-color: rgba(255, 10, 84, 0.1)
 }
 .bg-3 {
-   background-color: khaki;
+   background-color: rgba(254, 250, 224, 1);
 }
 
 .container img {
@@ -174,22 +181,59 @@ section h1 {
 
 
 
+/* --------------form section---------- */
 
-*--------------------contact us psge-------------*/
+.join-me {
+    width: 500px;
+    margin: 100px auto;
+    background-image: url(./images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+   background-position: -10px 20px;
 
-.location{
-    position: relative;
-    top: 20px;
-    left: 50px;
-    margin: 100px;
-}
-.location iframe{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+   
 }
 
+form {
+    width: 100%;
+    margin: 50px 100px;
+   
+      
+}
 
+.text {
+    font-size: 25px;
+   text-align: center;
+    font-family: poppins;
+    font-weight: 600;
+    margin: 10px 0;
+    
+}
+.form-division {
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 6px 7px #d0dce7;
+}
+
+.form-division:hover {
+    transform: translateY(-10px);
+}
+
+.input {
+    font-size: 22px;
+    /* border: none; */
+    /* margin: 5px 50px; */
+    padding: 5px;
+  
+}
+
+.form-btn {
+    margin:15px;
+    background-color: #ff99ac;
+
+}
+
+/* --------------form section---------- */
 
 
 /* --------footer--------- */
@@ -199,20 +243,25 @@ footer {
     background-color: black;
     color: white;
     height: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+    
 }
 
-.message {
+.message{
+ 
     text-align: center;
 }
 
 .message h1 {
-    margin-top: 100px;
-
+    font-size: 50px;
+    font-weight: 900;
+    font-family: moon dance;
+}
+.message p {
+    font-size: 18px;
+    color: gray;
 }
 
-.message h1 p {
-    margin-top: 110px;
-
-}
 
 /* -----x---footer------x--- */
