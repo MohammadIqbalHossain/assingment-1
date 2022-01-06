@@ -6,7 +6,7 @@
 
 <!-- <img src="./images/pictures/assingment-img-readme.png" style="width: 300px"> -->
 
-![ScreenShot](images/pictures/assingment-img-readme.png)
+![ScreenShot](./Assingment-img-readme.png)
  
 🤩 🤩
 
